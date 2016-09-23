@@ -9,7 +9,7 @@ class Fizzbuzz
     elsif int == 15
       return "FizzBuzz"
     else
-      return 1
+      return int
     end
 
   end
