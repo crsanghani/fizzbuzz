@@ -20,4 +20,8 @@ describe 'Fizzbuzz' do
   it 'Returns "1" when passed 1' do
       expect(@Fizzbuzz.number(1)).to eq 1
   end
+
+  it 'Returns "2" when passed 2' do
+      expect(@Fizzbuzz.number(2)).to eq 2
+  end
 end
