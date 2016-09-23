@@ -1,7 +1,11 @@
 class Fizzbuzz
 
   def number(int)
-    return "Fizz"
+    if int == 3
+      return "Fizz"
+    else
+      return "Buzz"
+    end
   end
 
 end
