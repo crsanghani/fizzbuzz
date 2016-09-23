@@ -8,4 +8,8 @@ describe 'Fizzbuzz' do
   it 'Returns "fizz" when passed 3' do
     expect(@Fizzbuzz.number(3)).to eq 'Fizz'
   end
+
+  it 'Returns "buzz" when passed 5' do
+    expect(@Fizzbuzz.number(5)).to eq 'Buzz'
+  end
 end
